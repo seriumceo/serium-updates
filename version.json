@@ -1,9 +1,9 @@
 {
-  "version": "1.5.1",
+  "version": "1.6",
   "min_version": "1.0",
-  "release_date": "2026-03-17",
+  "release_date": "2026-03-18",
   "download_url": "https://raw.githubusercontent.com/seriumceo/serium-updates/main/Serium.bat",
-  "changelog": "Test",
-  "force_update": true,
-  "message": "Update to v1.5.1 available"
+  "changelog": "__**SERIUM v1.6 \u2014 Changelog**__ > Released: 18/03/2026 \u00b7 by Serium Studios  **\u2705 Added** * Hardware Monitor module (V2) \u2014 live CPU, GPU, RAM, network, drive stats updating every 2s * CPU per-core usage display with individual bars * GPU usage, VRAM, temperature and fan speed monitoring * RAM usage bar with live percentage * Network upload/download speed tracking * Drive health bars per drive * Overall system health score out of 100 * Hardware Monitor pause/resume button * Diagnostics panel \u2014 CPU load, RAM pressure, temp files, uptime health checks * Clear Temp Files button in Diagnostics * Add/remove custom apps in App Launcher * Delete icon on hover for all app cards * SERIUM watermark in bottom right corner * Sidebar version label \u2014 SERIUM v1.6 by Serium Studios * In-app command output for system and network tools  **\ud83d\udd27 Fixed** * App launcher cards not rendering on launch * Serial key activate button not responding (CSP blocking scripts) * Window closing instead of transitioning after key activation * System Tools disk info failing on Windows 11 (replaced wmic with PowerShell) * Live Diagnostics CPU and startup count failing on Windows 11 (replaced wmic) * get-session IPC handler missing \u2014 broke session restore, disk info and hardware stats * All IPC handlers failing after broken handler in chain  **\u267b\ufe0f Changed** * Version bumped to 1.6 * Author updated to Serium Studios * Removed Live Diagnostics sect",
+  "force_update": false,
+  "message": "Update to v1.6 available"
 }
